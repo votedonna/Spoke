@@ -168,7 +168,8 @@
   "addons": [
     "heroku-postgresql:standard-0",
     "mailgun:starter",
-    "heroku-redis:hobby-dev"
+    "heroku-redis:hobby-dev",
+    "bucketeer:hobbyist"
   ],
   "formation": {
     "web": {
