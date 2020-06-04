@@ -166,7 +166,7 @@
     }
   },
   "addons": [
-    "heroku-postgresql:standard-0",
+    "heroku-postgresql:hobby-basic",
     "mailgun:starter",
     "heroku-redis:hobby-dev",
     "bucketeer:hobbyist"
@@ -174,7 +174,7 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "hobby"
     }
   }
 }
